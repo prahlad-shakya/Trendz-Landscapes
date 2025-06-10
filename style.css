@@ -984,13 +984,13 @@ p {
   align-items: center;
   justify-content: center;
 }
-.service-active{
+.service-active {
   color: var(--primary-color) !important;
 }
-.footer-p{
+.footer-p {
   text-align: center !important;
 }
-.recent-work-bottom-text a{
+.recent-work-bottom-text a {
   text-decoration: none;
 }
 .phone-icon {
@@ -1007,7 +1007,7 @@ p {
 .phone-icon img {
   width: 100%;
   height: 100%;
-  border-radius: 50%; 
+  border-radius: 50%;
   cursor: pointer;
 }
 
@@ -1097,17 +1097,17 @@ p {
   .get-started-bottom-left {
     margin-top: 80px;
   }
-  .bottom-footer{
+  .bottom-footer {
     display: block;
   }
-  .line{
+  .line {
     display: none;
   }
-  .footer-bottom-left{
+  .footer-bottom-left {
     text-align: center;
     justify-content: center;
   }
-  .footer-bottom-right{
+  .footer-bottom-right {
     text-align: center;
     justify-content: center;
   }
@@ -1156,7 +1156,6 @@ p {
   .testimonials-wrapper .third {
     display: none;
   }
-  
 }
 
 @media (max-width: 767px) {
@@ -1238,6 +1237,9 @@ p {
   .breadcrumb-content h1 {
     font-size: 32px;
   }
+  .services-right img{
+    margin-top: 30px !important;
+  }
 }
 @media (width<400px) {
   .hero-wrapper {
@@ -1280,12 +1282,12 @@ p {
   .banner-content h1 {
     font-size: 28px;
   }
-  .get-started-mid-left h1{
+  .get-started-mid-left h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: -40px !important;
   }
-  .our-team-top-left h1{
+  .our-team-top-left h1 {
     font-size: 50px;
     text-align: center;
   }
