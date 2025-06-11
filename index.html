@@ -23,6 +23,7 @@
                     <i class="fa fa-bars"></i>
                 </label>
                 <ul class="navbar-nav">
+                    <button id="cross-btn" class="cross cross-btn"><i class="fa-solid fa-xmark"></i></button>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html"><i class="fa fa-home"></i> HOME</a>
                     </li>
@@ -59,7 +60,7 @@
                         <a href=""><button class="nav-btn"><i class="fa-solid fa-phone"></i> 0422 382 031</button></a>
                     </li>
                 </ul>
-                
+
             </div>
         </nav>
     </section>
@@ -590,6 +591,11 @@
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
             },
+        });
+    </script>
+    <script>
+        document.getElementById("cross-btn").addEventListener("click", function () {
+            document.getElementById("check").checked = false;
         });
     </script>
 </body>

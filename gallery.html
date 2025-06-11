@@ -19,7 +19,12 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container navbar-container">
                 <a href="index.html"><img src="./images/logo.png" alt="Logo" class="nav-logo"></a>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
                 <ul class="navbar-nav">
+                    <button id="cross-btn" class="cross cross-btn"><i class="fa-solid fa-xmark"></i></button>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html"><i class="fa fa-home"></i> HOME</a>
                     </li>
@@ -80,7 +85,6 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="thumb-container">
-                                <!-- <img src="./images/grass-bg.jpeg" /> -->
                                 <div class="thumb-text">LAWN</div>
                             </div>
                         </div>
@@ -503,7 +507,7 @@
             watchSlidesProgress: true,
             breakpoints: {
                 320: {
-                    slidesPerView: 1, // for very small screens
+                    slidesPerView: 1, 
                 },
                 480: {
                     slidesPerView: 2,
@@ -512,7 +516,7 @@
                     slidesPerView: 3,
                 },
                 1024: {
-                    slidesPerView: 4, // default for larger screens
+                    slidesPerView: 4, 
                 },
             }
         });
@@ -538,6 +542,7 @@
             document.getElementById("check").checked = false;
         });
     </script>
+    
 </body>
 
 </html>
